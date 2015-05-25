@@ -1,0 +1,8 @@
+Domande informatica
+
+1) No, non è determinabile a priori, in quanto i thread non sono 
+   sincronizzati, il che significa che un thread può leggere il valore
+   quando un altro thread non ha ancora finito l'incremento.
+
+2) La parte non deterministica è quale thread leggerà ed incrementerà 
+   la scatola.
