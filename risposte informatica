@@ -4,5 +4,6 @@ Domande informatica
    sincronizzati, il che significa che un thread può leggere il valore
    quando un altro thread non ha ancora finito l'incremento.
 
-2) La parte non deterministica è quale thread leggerà ed incrementerà 
-   la scatola.
+2) La parte che non è possibile determinare è l'ordine in cui i thread eseguono 
+   l'incremento. Ovvero i thread possono accedere alla scatola senza un ordine preciso,
+   ma non saranno mai interrotti.
